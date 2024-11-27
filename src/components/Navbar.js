@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import Logo from './Logo'
 import { useRouter } from 'next/router'
-import { TwitterIcon, DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, SunIcon, MoonIcon } from './Icons'
+import { TwitterIcon, DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, SunIcon, MoonIcon, UpworkIcon, FacebookIcon } from './Icons'
 import { motion } from "framer-motion";
 import useThemeSwitcher from './hooks/useThemeSwitcher'
 
@@ -83,44 +83,37 @@ const Navbar = () => {
                 </nav>
 
                 <nav className='flex items-center justify-center flex-wrap'>
-                    <motion.a href="https://twitter.com" target={"_blank"}
+                    <motion.a href="https://www.upwork.com/freelancers/~01b040407319614377" target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
-                        className='w-6 mr-3'
+                        className='w-6 mr-2'
                     >
-                        <TwitterIcon />
+                        <UpworkIcon color="#6FDA44" className="some-class" />
                     </motion.a>
-                    <motion.a href="https://twitter.com" target={"_blank"}
+                    <motion.a href="https://github.com/GulnurMirzayeva" target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
-                        className='w-6 mx-3'
+                        className='w-6 mx-2'
                     >
                         <GithubIcon />
                     </motion.a>
-                    <motion.a href="https://twitter.com" target={"_blank"}
+                    <motion.a href="https://www.linkedin.com/in/g%C3%BClnur-mirz%C9%99yeva-b89a52282/" target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
-                        className='w-6 mx-3'
+                        className='w-6 mx-2'
                     >
                         <LinkedInIcon />
                     </motion.a>
-                    <motion.a href="https://twitter.com" target={"_blank"}
+                    <motion.a href="https://www.facebook.com/profile.php?id=100089509058824" target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
-                        className='w-6 mx-3 bg-light rounded-full'
+                        className='w-6 ml-2'
                     >
-                        <PinterestIcon />
-                    </motion.a>
-                    <motion.a href="https://twitter.com" target={"_blank"}
-                        whileHover={{ y: -2 }}
-                        whileTap={{ scale: 0.9 }}
-                        className='w-6 ml-3'
-                    >
-                        <DribbbleIcon />
+                        <FacebookIcon color="#2C73B5" className="some-class" />
                     </motion.a>
 
                     <button onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                        className={`ml-3 flex items-center justify-center rounded-full p-1
+                        className={`ml-10 flex items-center justify-center rounded-full p-1
                     ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
                     `}>
                         {
@@ -148,40 +141,36 @@ const Navbar = () => {
                         </nav>
 
                         <nav className='flex items-center justify-center flex-wrap mt-2'>
-                            <motion.a href="https://twitter.com" target={"_blank"}
+                            <motion.a href="https://www.upwork.com/freelancers/~01b040407319614377" target={"_blank"}
                                 whileHover={{ y: -2 }}
                                 whileTap={{ scale: 0.9 }}
                                 className='w-6 mr-3 sm:mx-1'
                             >
-                                <TwitterIcon />
+                                <UpworkIcon color="#6FDA44" className="some-class" />
                             </motion.a>
-                            <motion.a href="https://twitter.com" target={"_blank"}
+                            <motion.a
+                                href="https://github.com/GulnurMirzayeva"
+                                target={"_blank"}
                                 whileHover={{ y: -2 }}
                                 whileTap={{ scale: 0.9 }}
-                                className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'
+                                className={`w-6 mx-2 dark:text-dark text-light`}
                             >
                                 <GithubIcon />
                             </motion.a>
-                            <motion.a href="https://twitter.com" target={"_blank"}
+
+                            <motion.a href="https://www.linkedin.com/in/g%C3%BClnur-mirz%C9%99yeva-b89a52282/" target={"_blank"}
                                 whileHover={{ y: -2 }}
                                 whileTap={{ scale: 0.9 }}
                                 className='w-6 mx-3 sm:mx-1'
                             >
                                 <LinkedInIcon />
                             </motion.a>
-                            <motion.a href="https://twitter.com" target={"_blank"}
-                                whileHover={{ y: -2 }}
-                                whileTap={{ scale: 0.9 }}
-                                className='w-6 mx-3 bg-light rounded-full sm:mx-1'
-                            >
-                                <PinterestIcon />
-                            </motion.a>
-                            <motion.a href="https://twitter.com" target={"_blank"}
+                            <motion.a href="https://www.facebook.com/profile.php?id=100089509058824" target={"_blank"}
                                 whileHover={{ y: -2 }}
                                 whileTap={{ scale: 0.9 }}
                                 className='w-6 ml-3 sm:mx-1'
                             >
-                                <DribbbleIcon />
+                                <FacebookIcon color="#2C73B5" className="some-class" />
                             </motion.a>
 
                             <button onClick={() => setMode(mode === "light" ? "dark" : "light")}

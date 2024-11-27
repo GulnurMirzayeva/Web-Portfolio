@@ -5,7 +5,15 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/cover-image-1.png";
+import project1_2 from "../../public/images/projects/cover-image-2.png";
+import project1_3 from "../../public/images/projects/cover-image-3.png";
+import project2 from "../../public/images/projects/dental-cover-1.png";
+import project2_2 from "../../public/images/projects/dental-cover-2.png";
+import project2_3 from "../../public/images/projects/dental-cover-3.png";
+import project3 from "../../public/images/projects/football-cover-image-1.png";
+import project3_2 from "../../public/images/projects/football-cover-image-2.png";
+import project3_3 from "../../public/images/projects/football-cover-image-3.png";
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -94,91 +102,121 @@ const projects = () => {
             <TransitionEffect />
             <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
                 <Layout className='pt-16'>
-                    <AnimatedText text="Imagination Trumps Knowledge!"
-                        className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'
+                    <AnimatedText text="Ideas Ignite the World, Knowledge Builds It!"
+                        className='mb-16 !text-7xl lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'
                     />
 
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12'>
                             <FeaturedProjects
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
-                                link="/"
-                                github="/"
-                                type="Featured Project"
+                                title="Dental Website"
+                                img={project2}
+                                summary="DentalWebsite is a Laravel-based web application for managing dental services, appointments, and customer details. It allows users to book and manage appointments, view services, and securely log in. Admins can manage appointments, users, and services through an admin panel. The application is built with Laravel, MySQL, Bootstrap, and optionally Vue.js, with responsive design for all devices."
+                                link="https://dental.cybersecuritylab.az/"
+                                github="https://github.com/GulnurMirzayeva/DentalWebsite"
+                                type="Dental Website Project"
+                            />
+
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Dental Website"
+                                img={project2_2}
+                                summary="DentalWebsite is a Laravel-based web application for managing dental services, appointments, and customer details. It allows users to book and manage appointments, view services, and securely log in. Admins can manage appointments, users, and services through an admin panel. The application is built with Laravel, MySQL, Bootstrap, and optionally Vue.js, with responsive design for all devices."
+                                link="https://dental.cybersecuritylab.az/"
+                                github="https://github.com/GulnurMirzayeva/DentalWebsite"
+                                type="Dental Website Project"
 
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
-                                link="/"
-                                github="/"
-                                type="Featured Project"
+                                title="Dental Website"
+                                img={project2_3}
+                                summary="DentalWebsite is a Laravel-based web application for managing dental services, appointments, and customer details. It allows users to book and manage appointments, view services, and securely log in. Admins can manage appointments, users, and services through an admin panel. The application is built with Laravel, MySQL, Bootstrap, and optionally Vue.js, with responsive design for all devices."
+                                link="https://dental.cybersecuritylab.az/"
+                                github="https://github.com/GulnurMirzayeva/DentalWebsite"
+                                type="Dental Website Project"
 
                             />
                         </div>
-                        <div className='col-span-6 sm:col-span-12'>
-                            <Project
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
-                                link="/"
-                                github="/"
-                                type="Featured Project"
 
-                            />
-                        </div>
 
                         <div className='col-span-12'>
                             <FeaturedProjects
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
-                                link="/"
-                                github="/"
-                                type="Featured Project"
-
+                                title="Football Stadium Website"
+                                img={project3}
+                                summary="FootballStadium is a platform for booking and managing football fields in Azerbaijan. It allows users to search and rent fields across various cities, while field owners can register and manage their fields. The project is built with Laravel, MySQL, Blade, Bootstrap, JavaScript, and jQuery. It is still under development, with new features and improvements planned for the future."
+                                link="https://github.com/GulnurMirzayeva/FootballStadium"
+                                github="https://github.com/GulnurMirzayeva/FootballStadium"
+                                type="Football Stadium Website Project"
                             />
                         </div>
 
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
-                                link="/"
-                                github="/"
-                                type="Featured Project"
+                                title="Footbal Stadium Website"
+                                img={project3_2}
+                                summary="FootballStadium is a platform for booking and managing football fields in Azerbaijan. It allows users to search and rent fields across various cities, while field owners can register and manage their fields. The project is built with Laravel, MySQL, Blade, Bootstrap, JavaScript, and jQuery. It is still under development, with new features and improvements planned for the future."
+                                link="https://github.com/GulnurMirzayeva/FootballStadium"
+                                github="https://github.com/GulnurMirzayeva/FootballStadium"
+                                type="Footbal Stadium Website Project"
 
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
-                                link="/"
-                                github="/"
-                                type="Featured Project"
+                                title="Footbal Stadium Website"
+                                img={project3_3}
+                                summary="FootballStadium is a platform for booking and managing football fields in Azerbaijan. It allows users to search and rent fields across various cities, while field owners can register and manage their fields. The project is built with Laravel, MySQL, Blade, Bootstrap, JavaScript, and jQuery. It is still under development, with new features and improvements planned for the future."
+                                link="https://github.com/GulnurMirzayeva/FootballStadium"
+                                github="https://github.com/GulnurMirzayeva/FootballStadium"
+                                type="Football Stadium Website Project"
 
                             />
                         </div>
+
+
+
+
+                        <div className='col-span-12'>
+                            <FeaturedProjects
+                                title="Design Website"
+                                img={project1}
+                                summary="A multilingual Designer Website built using Laravel, HTML, CSS, JavaScript, and Bootstrap. 
+    The website supports three languages (Azerbaijani, Russian, and English) and features a modern, responsive design."
+                                link="https://github.com/GulnurMirzayeva/KabiDesign"
+                                github="https://github.com/GulnurMirzayeva/KabiDesign"
+                                type="Design Website Project"
+                            />
+                        </div>
+
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Design Website"
+                                img={project1_2}
+                                summary="A multilingual Designer Website built using Laravel, HTML, CSS, JavaScript, and Bootstrap. 
+    The website supports three languages (Azerbaijani, Russian, and English) and features a modern, responsive design."
+                                link="https://github.com/GulnurMirzayeva/KabiDesign"
+                                github="https://github.com/GulnurMirzayeva/KabiDesign"
+                                type="Design Website Project"
+
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Design Website"
+                                img={project1_3}
+                                summary="A multilingual Designer Website built using Laravel, HTML, CSS, JavaScript, and Bootstrap. 
+    The website supports three languages (Azerbaijani, Russian, and English) and features a modern, responsive design."
+                                link="https://github.com/GulnurMirzayeva/KabiDesign"
+                                github="https://github.com/GulnurMirzayeva/KabiDesign"
+                                type="Design Website Project"
+
+                            />
+                        </div>
+
+
                     </div>
                 </Layout>
             </main>
