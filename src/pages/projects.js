@@ -98,6 +98,7 @@ const projects = () => {
             <Head>
                 <title>Gulnur Mirzayeva | Projects </title>
                 <meta name='description' content='My Web Portfolio' />
+                <link rel="icon" href="/favicon.png" />
             </Head>
             <TransitionEffect />
             <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>

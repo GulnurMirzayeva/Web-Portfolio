@@ -43,6 +43,7 @@ const about = () => {
             <Head>
                 <title>Gulnur Mirzayeva | About </title>
                 <meta name='description' content='My Web Portfolio' />
+                <link rel="icon" href="/favicon.png" />
             </Head>
             <TransitionEffect />
             <main className='flex w-full flex-col items-center justify-center dark:text-light'>
