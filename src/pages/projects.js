@@ -113,7 +113,7 @@ const projects = () => {
                                 title="Dental Website"
                                 img={project2}
                                 summary="DentalWebsite is a Laravel-based web application for managing dental services, appointments, and customer details. It allows users to book and manage appointments, view services, and securely log in. Admins can manage appointments, users, and services through an admin panel. The application is built with Laravel, MySQL, Bootstrap, and optionally Vue.js, with responsive design for all devices."
-                                link="https://dental.cybersecuritylab.az/"
+                                link="https://dental.codemarketing.edu.az/"
                                 github="https://github.com/GulnurMirzayeva/DentalWebsite"
                                 type="Dental Website Project"
                             />
@@ -124,7 +124,7 @@ const projects = () => {
                                 title="Dental Website"
                                 img={project2_2}
                                 summary="DentalWebsite is a Laravel-based web application for managing dental services, appointments, and customer details. It allows users to book and manage appointments, view services, and securely log in. Admins can manage appointments, users, and services through an admin panel. The application is built with Laravel, MySQL, Bootstrap, and optionally Vue.js, with responsive design for all devices."
-                                link="https://dental.cybersecuritylab.az/"
+                                link="https://dental.codemarketing.edu.az/"
                                 github="https://github.com/GulnurMirzayeva/DentalWebsite"
                                 type="Dental Website Project"
 
@@ -135,7 +135,7 @@ const projects = () => {
                                 title="Dental Website"
                                 img={project2_3}
                                 summary="DentalWebsite is a Laravel-based web application for managing dental services, appointments, and customer details. It allows users to book and manage appointments, view services, and securely log in. Admins can manage appointments, users, and services through an admin panel. The application is built with Laravel, MySQL, Bootstrap, and optionally Vue.js, with responsive design for all devices."
-                                link="https://dental.cybersecuritylab.az/"
+                                link="https://dental.codemarketing.edu.az/"
                                 github="https://github.com/GulnurMirzayeva/DentalWebsite"
                                 type="Dental Website Project"
 
